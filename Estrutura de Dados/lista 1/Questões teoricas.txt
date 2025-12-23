@@ -1,0 +1,52 @@
+Questão 1:
+	I - VERDADEIRO. Pois a organizção lógica se refere ao relacionamento conceitual entre os dados sem considerar sua representação física.
+	II - VERDADEIRO. Pois a complexidade espacial se refere a quantidade de espaço que uma estrutura consome na memória, auxiliando na escolha de cada estrutura.
+	III - VERDADEIRO. Pois a eficiência das operações variam dependendo de como a estrutura está organizada.
+	IV - FALSO. Pois a complexidade temporal é definida pela forma como os dados estão organizados e como a velocidade do processador varia de máquina para máquina o tempo de execução não depende apenas do processador.
+	V - FALSO. Pois a utilização de estruturas de dados não estão restritas a programação de baixo nível já que também são fundamentais para a eficiência e a escalabilidade de sistemas de grande escala.
+
+	R - a) I, II e II.
+
+Questão 2:
+	I - FALSO. Pois a linguagem não é um fator primordial, mas sim a eficiência e a escalabilidade do algoritmo na resoluçao do problema.
+	II - VERDADEIRO. Pois o tempo de execução e o consumo de recursos são obtidos em função da entrada.
+	III - FALSO. Pois mesmo se dois algoritmos distintos forem desenvolvidos na mesma linguagem de programação e resolverem o mesmo problema a sua estrutura e o consumo de recursos impactaram na eficiência.
+	IV - VERDADEIRO. Pois para realizar a escolha de um algoritmo adequado para o problema, é necessário a análise de sua eficiência, ou seja, a análise é natural no processo de desenvolvimento. 
+	v - VERDADEIRO. Pois a comparação de eficiência dentre dois algoritmos é realizada em função da mesma entrada.
+
+	R - a) II, IV e V.
+
+Questão 3:
+ 	I - VERDADEIRO. Pois a eficiência é medida através da analise da velocidade e do consumo de recursos de um algoritmo durante a resolução de um problema em função da entrada.
+	II - VERDADEIRO. Pois a eficiência de um algoritmo pode variar dependendo do problema e do valor da entrada.
+	III - FALSO. Pois a complexidade de um algoritmo depende do consumo de recursos e de como os seus dados estão estruturados. 
+	IV - FALSO. Pois a complexidade espacial também é um fator crucial na analise da complexidade de um algoritmo.
+	V -  FALSO. Pois mesmo com a evolução dos sistemas computacionais a escolha de algoritmos eficientes continua sendo fundamental.
+
+	R - d) Apenas I e II.
+
+Questão 4:
+	I - VERDADEIRO. Pois possuindo o índice de um elemento em um array não é necessário percorrer todo o array até acessá-lo, não importando o tamanho do array. Logo, complexidade O(1).
+	II - FALSO. Pois devemos considerar sempre o pior caso por exemplo: O tempo para acessar o elemento caso ele esteja na ultima posição vai demorar mais do que se ele estivesse na primeira pois para chegar no ultimo indice é necessario percorrer todos os anteriores a ele. Logo complexidade O(n).
+	III - VERDADEIRO. Pois se a cada passagem de índice for realizado um processamento sobre o elemento o tempo de processamento crescerá proporcionalmente ao número de elementos do array.
+	IV - FALSO. Nem sempre será complexidade O(1), pois no pior caso o array será redimensinado e os elementos serão copiados e realocados, então o tempo de execução irá depender da quantidade de elementos do array, ou seja, O(n). 
+	V - FALSO. Pois também existem operações fundamentais com complexidade O(n), O(1) é desejável mas nem sempre possível.
+
+	R - a) Apenas I e III.
+
+Questão 5:
+	I - VERDADEIRO. Pois em repetições aninhadas, para cada elemento externo acontecerá uma repetição interna.
+	II - FALSO. Porque uma operação de comparação não possui natureza tripla, mas dupla, ou seja, O(n).
+	III - VERDADEIRO. Pois em caso como este haverão 3 loops aninhados e para cada elemento externo haverá um loop interno. 
+	IV - FALSO. O número de operações não permanece constante, ele cresce exponencialmente conforme o tamanho da entrado tornando-o menos eficiente, pois uma entrada grande resulta em um processamento exponencialmente maior.
+	V - VERDADEIRO.
+
+	R - d) I, III e V.
+
+Questão 6:
+	I - O(n)
+	II - O(n²)
+	III - O(1)
+	IV - O(2^n)
+
+	R - d)
