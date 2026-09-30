@@ -35,7 +35,7 @@ void cifraRailFence(char p[], int n, int m) {
         }
     }
 
-    /* Processo de cifração
+    /* Exibindo o processo de cifração
 
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
