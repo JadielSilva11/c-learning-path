@@ -30,10 +30,12 @@ void cifraRailFence(char p[], int n, int m) {
         
         while(i > 0 && j < m){
             matriz[i][j] = p[j];
-            j++;
             i--;
+            j++;
         }
     }
+
+    /* Processo de cifração
 
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
@@ -41,6 +43,18 @@ void cifraRailFence(char p[], int n, int m) {
         }
         printf("\n");
     }
+
+    */
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(matriz[i][j] != '_'){
+                printf("%c", matriz[i][j]);
+            }
+        }
+    }
+
+    printf("\n");
 }
 
 int main(){
